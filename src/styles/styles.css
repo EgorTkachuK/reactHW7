@@ -1,0 +1,57 @@
+
+
+
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  line-height: 1.5;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.delete-button{
+  background-color: black;
+  color: white;
+  width: 300px;
+  height: 200px;
+  border-radius: 100px;
+  font-size: 30px;
+  margin-left: 25px;
+   font-weight: bold;
+   margin-top: 25px;
+  text-transform: uppercase;
+}
+
+.task-cover{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ flex-direction: column;;
+}
+li{
+  font-size: 40px;
+  font-weight: bold;
+   text-transform: uppercase;
+}
